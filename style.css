@@ -27,8 +27,8 @@ img{
 #enTete{
     text-align: center;
 }
-.v{
-    color: rgb(255, 111, 200);
+.EnSavoirPlus{
+    color: rgb(58, 59, 100);
     font-size: 50px;
 }
 #Parcours{
@@ -70,7 +70,14 @@ img{
     font-size: 100px;
     color: rgb(255, 111, 200);
 }
-
+.slider {
+    width: fit-content;
+    height: fit-content;
+}
+.slider_nav {
+    position: absolute;
+    width: 100%;
+}
 @media screen and (max-width: 800px) {
    .container{
         display: flex;
